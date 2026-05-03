@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### [3.5.8] - 2026-05-03
+### Fixed
+* Support usage with crwlr/schema-org v0.4.x.
+
 ## [3.5.7] - 2026-05-02
 ### Fixed
 * Support usage with symfony v8 components. Thx to [@chr-hertel](https://github.com/chr-hertel)!
