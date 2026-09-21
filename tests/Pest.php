@@ -218,8 +218,12 @@ function helper_arrayToGenerator(array $array): Generator
 }
 
 /**
+ * Iterating the generator executes its body (e.g. runs a crawler), so calling this without
+ * using the returned array is a valid use-case.
+ *
  * @param Generator<mixed> $generator
  * @return mixed[]
+ * @phpstan-impure
  */
 function helper_generatorToArray(Generator $generator): array
 {
